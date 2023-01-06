@@ -164,20 +164,18 @@ a) Kraken
     Kraken reports of multiple samples can be merged by using [combine_kreports.py](https://github.com/jenniferlu717/KrakenTools#combine_kreportspy).
 
 ```
-combine_kreports.py -r /qib/research-projects/cami/tiwari/meta_mock/report/*.report -o /qib/research-projects/cami/tiwari/meta_mock/report/merged_kreports.txt
+combine_kreports.py -r ./reports/kraken2/*.report -o ./combined-reports/kraken2/merged_kreports.txt
 ```
 b) Bracken
     Bracken reports of multiple samples can be merged using [combine_bracken_outputs.py](https://github.com/jenniferlu717/Bracken/tree/master/analysis_scripts/)
 ```
-combine_bracken_outputs.py --files /qib/research-projects/cami/tiwari/meta_mock/report/*.bracken.report -o /qib/research-projects/cami/tiwari/meta_mock/report/bracken_estimates.txt
+combine_bracken_outputs.py --files ./reports/bracken/*.bracken.report -o ./combined-reports/bracken/bracken_estimates.txt
 ```
 ## Extracting genus and species level mapping with kraken ouptut
 #
 Extract per sample number of reads mapped per species/genus using extract_report.py
 ```
-python3 /qib/research-projects/cami/tiwari/meta_mock/scripts/extract_report.py \
--i /qib/research-projects/cami/tiwari/meta_mock/report/merged_kreports.txt \
--o /qib/research-projects/cami/tiwari/meta_mock/report/filtered_kreports.txt
+python3 extract_report.py -i ./combined-reports/kraken2/merged_kreports.txt -o ./combined-reports/kraken2/filtered_kreports.txt
 ```
 
 ## Creation of Kraken/Backen phyloseq object
@@ -193,7 +191,15 @@ Options:
     -r RANK, --rank=RANK, S: Species, G: Genus, [default=G]
 	-o OUTPUT, --output=OUTPUT, Output file name prefix
 	-h, --help, Show this help message and exit
+
+# Sample Run
+Rscript kraken2phloseq.R -i ./combined-reports/kraken2/filtered_kreports.txt -m metadata.csv -r G -o krakenGenus
+
+Rscript kraken2phloseq.R -i ./combined-reports/kraken2/filtered_kreports.txt -m metadata.csv -r S -o krakenSpecies
 ```
+**Output**: 
+* **krakenGenus.rds** can be found in **output** directory.
+* **krakenSpecies.rds** can be found in **output** directory.
 
 ### Bracken
 * Use **bracken2phyloseq.R** to create phyloseq object of the multisample Bracken report at Species level.
@@ -204,6 +210,11 @@ Usage: bracken2phloseq.R [options]
 Options:
 	-i INPUT, --input=INPUT, Combine bracken report file
 	-m METADATA, --metadata=METADATA, Sample metadata *.csv file
-	-o OUTPUT, --output=OUTPUT, Output file name prefix 
+	-o OUTPUT, --output=OUTPUT, Output file name prefix, default="brackenSpecies" 
 	-h, --help, Show this help message and exit
+
+Rscript bracken2phyloseq.R -i ./combined-reports/bracken/bracken_estimates.txt -m metadata.csv -o brackenSpecies
 ```
+**Output**: 
+
+* **brackenSpecies.rds** can be found in **output** directory.
