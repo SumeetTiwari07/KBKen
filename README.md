@@ -196,7 +196,7 @@ Options:
 ```
 
 ### Bracken
-* Use **bracken2phyloseq.R** to create phyloseq object of the multi-sample Bracken report at Species level.
+* Use **bracken2phyloseq.R** to create phyloseq object of the multisample Bracken report at Species level.
 
 ```
 Rscript bracken2phloseq.R --help
