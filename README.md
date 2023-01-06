@@ -5,8 +5,12 @@ KBKen is pipeline to run [Kraken2](https://github.com/DerrickWood/kraken2) and [
 **Kraken2:**
 
 ```
+# Kraken installation
 conda install -c bioconda kraken2=2.1.2
+
+# Kraken tools
 conda install -c bioconda krakentools=1.2
+
 ```
 **Bracken:** 
 ```
@@ -16,10 +20,15 @@ tar -xzvf v2.8.tar.gz
 cd Bracken-2.8
 bash install_bracken.sh
 OR
+
 # One command installation
 conda install -c bioconda bracken=2.8
 ```
 
+**R-packages**
+```
+conda install -c bioconda -c conda-forge r-optparse=1.3.2 bioconductor-phyloseq=1.42.0 r-stringr=1.5.0 r-dplyr=1.0.10
+```
 ## Singularity image:
 ```
 Bootstrap: docker
@@ -89,7 +98,8 @@ kraken2
 `DB="/qib/platforms/Informatics/transfer/outgoing/databases/kraken2/benlangmead/20210127_plusPF/"`
 
 ### Bracken
-
+* Braken database should be built on the same Kraken2 database which was used for the Kraken2 analysis and with maximum readlength of the input reads.
+* That database should be used as input for the bracken.
 ```
 bracken 
     -d DB
@@ -149,7 +159,7 @@ srun $CLASSIFICATION bracken -d $DB \
 -r 300 \
 -l S
 ```
-## Merging reports.
+## Combine reports.
 a) Kraken
     Kraken reports of multiple samples can be merged by using [combine_kreports.py](https://github.com/jenniferlu717/KrakenTools#combine_kreportspy).
 
@@ -163,10 +173,37 @@ combine_bracken_outputs.py --files /qib/research-projects/cami/tiwari/meta_mock/
 ```
 ## Extracting genus and species level mapping with kraken ouptut
 #
-Filter data using extract_report.py
+Extract per sample number of reads mapped per species/genus using extract_report.py
 ```
 python3 /qib/research-projects/cami/tiwari/meta_mock/scripts/extract_report.py \
 -i /qib/research-projects/cami/tiwari/meta_mock/report/merged_kreports.txt \
 -o /qib/research-projects/cami/tiwari/meta_mock/report/filtered_kreports.txt
 ```
 
+## Creation of Kraken/Backen phyloseq object
+### Kraken 
+* Use **kraken2phyloseq.R** to create phyloseq object of the multi-sample kraken2 report at Genus/Species level.
+
+```
+Rscript kraken2phloseq.R --help
+Usage: kraken2phloseq.R [options]
+Options:
+	-i INPUT, --input=INPUT, Combine Kraken report file
+	-m METADATA, --metadata=METADATA, Sample metadata *.csv file
+    -r RANK, --rank=RANK, S: Species, G: Genus, [default=G]
+	-o OUTPUT, --output=OUTPUT, Output file name prefix
+	-h, --help, Show this help message and exit
+```
+
+### Bracken
+* Use **bracken2phyloseq.R** to create phyloseq object of the multi-sample Bracken report at Species level.
+
+```
+Rscript bracken2phloseq.R --help
+Usage: bracken2phloseq.R [options]
+Options:
+	-i INPUT, --input=INPUT, Combine bracken report file
+	-m METADATA, --metadata=METADATA, Sample metadata *.csv file
+	-o OUTPUT, --output=OUTPUT, Output file name prefix 
+	-h, --help, Show this help message and exit
+```
