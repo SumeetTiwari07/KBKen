@@ -175,7 +175,10 @@ combine_bracken_outputs.py --files ./reports/bracken/*.bracken.report -o ./combi
 ```
 ## Extracting genus and species level mapping with kraken ouptut
 #
-Extract per sample number of reads mapped per species/genus using extract_report.py
+Extract per sample number of reads mapped per species/genus and corresponding taxonomy using extract_report.py
+Two exprected output:
+* Report with taxonomy
+* **taxonomy.tsv** contains taxonomy only. This will be used in `bracken2phyloseq.R` script later.
 ```
 python3 extract_report.py -i ./combined-reports/kraken2/merged_kreports.txt -o ./combined-reports/kraken2/filtered_kreports.txt
 ```
@@ -212,11 +215,11 @@ Usage: bracken2phloseq.R [options]
 Options:
 	-i INPUT, --input=INPUT, Combine bracken report file
 	-m METADATA, --metadata=METADATA, Sample metadata *.csv file
+    -t TAXONOMY, --taxonomy=TAXONOMY, taxonomy file in tsv format
 	-o OUTPUT, --output=OUTPUT, Output file name prefix, default="brackenSpecies" 
 	-h, --help, Show this help message and exit
 
-Rscript bracken2phyloseq.R -i ./combined-reports/bracken/bracken_estimates.txt -m metadata.csv -o brackenSpecies
+Rscript bracken2phyloseq.R -i ./combined-reports/bracken/bracken_estimates.txt -m metadata.csv -t ./output/taxonomy.tsv -o brackenSpecies
 ```
 **Output**: 
-
 * **brackenSpecies.rds** can be found in **output** directory.

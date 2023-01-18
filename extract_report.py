@@ -8,8 +8,12 @@ import numpy as np
 """
 Parse multiple samples summary kraken reports.
 Renaming the samples with actual sample names.
-Filtering the all the species beloning to particular Domains.
-Filtering species based on their name.
+Add taxonomy for each species within the report
+optional: Discarding a Domain/species.
+
+Expected output file:
+1) Filtered summary with taxonomy.
+2) Separate "taxonomy.tsv" file.
 """
 
 def read_file(summary_file):
@@ -56,82 +60,66 @@ def kraken_report(summary_file,header_row):
 
     # Droping reads specific to a clade.
     kraken_summary=kraken_summary.filter(regex=f'_all$|name|lvl_type',axis=1)
-
+ 
     # Renaming columns with actual sample names
     kraken_summary.rename(columns=sample_names,inplace=True)
-    
+
+    kraken_summary['lvl_type']=kraken_summary['lvl_type'].str.casefold() # ranks in lower case
+    kraken_summary['taxonomy'] = kraken_summary['lvl_type']+"__"+kraken_summary['name'] # combine ranks with names
+    kraken_summary.columns=kraken_summary.columns.str.replace('_all','', regex=True)
+
     return kraken_summary
 
-def add_domain(summary_df):
-    names_with_domain=pd.DataFrame(0,index=np.arange(len(summary_df)),columns=["name"])
-    #Get Domains index
-    domains=summary_df[summary_df['lvl_type']=="D"]['name']
-    domains=domains.to_frame()
-    idx=domains.index.tolist()
+def generate_taxonomy(kreport):
+    '''
+    Generate the taxonomy for each taxa rank.
+    '''
+    for idx, row in kreport.iterrows():
+        # get unclassified
+        if row['lvl_type'] == "u":
+            ranks = ['d','p','c','o','f','g','s']
+            u = ["__".join([i, "unclassified"]) for i in ranks]
+            kreport.loc[idx, 'taxonomy'] = ";".join(u)
+        # get domain              
+        elif row['lvl_type'] == "d":
+            domain = row['taxonomy']
+            kreport.loc[idx, 'taxonomy'] = domain
+        # get phylym 
+        elif row['lvl_type'] == "p":
+            phylum = row['taxonomy']
+            kreport.loc[idx, 'taxonomy'] = ";".join([domain, phylum])
+        # get class
+        elif row['lvl_type'] == "c":
+            clas = row['taxonomy']
+            kreport.loc[idx, 'taxonomy'] = ";".join([domain, phylum, clas])
+        # get order
+        elif row['lvl_type'] == "o":
+            order = row['taxonomy']
+            kreport.loc[idx, 'taxonomy'] = ";".join([domain, phylum, clas, order])
+        # get family
+        elif row['lvl_type'] == "f":
+            family = row['taxonomy']
+            kreport.loc[idx, 'taxonomy'] = ";".join([domain, phylum, clas, order, family])
+        # get genus
+        elif row['lvl_type'] == "g":
+            genus = row['taxonomy']
+            kreport.loc[idx, 'taxonomy'] = ";".join([domain, phylum, clas, order, family, genus])
+        # get species
+        elif row['lvl_type'] == "s":
+            species = row['taxonomy']
+            kreport.loc[idx, 'taxonomy'] = ";".join([domain, phylum, clas, order, family, genus, species])
+        else:
+            na = "na"
+            kreport.loc[idx, 'taxonomy'] = ";".join([na,na,na,na,na,na,na]) 
 
-    for index, row in summary_df.iterrows():
-        d1=['U','R']
-        d2=['K','P','C','O','F','G','S','D']
-        
-        if set(d1) & set(row['lvl_type']):
-            names_with_domain.loc[index,'name']=row['name']
-            continue
-        
-        if row['lvl_type']=="D":
-            names_with_domain.loc[index,'name']=row['name']
-            continue
-
-        if set(d2) & set(row['lvl_type']):
-            if len(idx)==4:
-                if index > idx[0] and index < idx[1]:
-                    names_with_domain.loc[index,'name']=domains.loc[idx[0],'name']
-                    #names_with_domain.loc[index,'name']=domains.loc[idx[0],'name']+";"+row['name']
-                elif index > idx[1] and index < idx[2]:
-                    names_with_domain.loc[index,'name']=domains.loc[idx[1],'name']
-                    #names_with_domain.loc[index,'name']=domains.loc[idx[1],'name']+";"+row['name']
-                elif index > idx[2] and index < idx[3]:
-                    names_with_domain.loc[index,'name']=domains.loc[idx[2],'name']
-                    #names_with_domain.loc[index,'name']=domains.loc[idx[2],'name']+";"+row['name']
-                elif index > idx[3]:
-                    names_with_domain.loc[index,'name']=domains.loc[idx[3],'name']
-                    #names_with_domain.loc[index,'name']=domains.loc[idx[3],'name']+";"+row['name']
-                else:
-                    pass
-            
-            if len(idx)==3:
-                if index > idx[0] and index < idx[1]:
-                    names_with_domain.loc[index,'name']=domains.loc[idx[0],'name']
-                    #names_with_domain.loc[index,'name']=domains.loc[idx[0],'name']+";"+row['name']
-                elif index > idx[1] and index < idx[2]:
-                    names_with_domain.loc[index,'name']=domains.loc[idx[1],'name']
-                    #names_with_domain.loc[index,'name']=domains.loc[idx[1],'name']+";"+row['name']
-                elif index > idx[2]:
-                    names_with_domain.loc[index,'name']=domains.loc[idx[2],'name']
-                    #names_with_domain.loc[index,'name']=domains.loc[idx[3],'name']+";"+row['name']
-                else:
-                    pass
-            
-            if len(idx)==2:
-                if index > idx[0] and index < idx[1]:
-                    names_with_domain.loc[index,'name']=domains.loc[idx[0],'name']
-                    #names_with_domain.loc[index,'name']=domains.loc[idx[0],'name']+";"+row['name']
-                elif index > idx[1]:
-                    names_with_domain.loc[index,'name']=domains.loc[idx[1],'name']
-                    #names_with_domain.loc[index,'name']=domains.loc[idx[1],'name']+";"+row['name']
-                else:
-                    pass
- 
-    summary_df['domain_names']=names_with_domain['name']
-    
-    return summary_df
-
+    return kreport
 
 if __name__=="__main__":
     parser=argparse.ArgumentParser(description=__doc__ , formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument('-i','--input',type=str, required=True, help="Combined table of kraken report generated by: https://github.com/jenniferlu717/KrakenTools#combine_kreportspy")
-    parser.add_argument('-d','--domain',action='append', help="Domains to remove from the kraken summary for eg '-d Eukaryota -d Viruses'")
-    parser.add_argument('-n','--name',action='append', help="Complete species names to reomove from summary")
-    parser.add_argument('-o','--output',type=str, help="Output file")
+    parser.add_argument('-dn','--dname',action='append', help="Domains to remove from the kraken summary for eg: '-dn Eukaryota -dn Viruses'")
+    parser.add_argument('-sn','--sname',action='append', help="Complete Species names to reomove from summary eg: '-sn Homo sapiens -sn xyz")
+    parser.add_argument('-o','--output',type=str, help="Output file (.tsv)")
     args = parser.parse_args()
 
 
@@ -141,26 +129,29 @@ if __name__=="__main__":
     #Extracting the kraken_report and domains found in report with their index value
     summary=kraken_report(args.input,header_row)
 
-    #Removal of domains
-    if args.domain:
-        #Adding domain of each species.
-        summary_with_domains=add_domain(summary)
-        #Removing domains:
-        for i in args.domain:
-            summary_with_domains=summary_with_domains[summary_with_domains['domain_names']!=i]
-        summary_with_domains.reset_index(inplace=True)
-        summary_with_domains.drop(columns=['index','domain_names'],inplace=True)       
-        summary_with_domains.to_csv(args.output,index=False,sep="\t")
-    
-    if args.name:
-        for s in args.name:
-            summary=summary[summary['name']!=s]
-        summary.reset_index(inplace=True)
-        summary.drop(columns=['index'],inplace=True)
-        summary.to_csv(args.output,index=False,sep="\t")
+    # Add taxonomy
+    taxonomy_df = generate_taxonomy(summary)
 
-    
-    if not args.name: 
-        if not args.domain:
-            summary.to_csv(args.output,index=False,sep="\t")
+    #Removal of domains
+    if args.dname:
+        #Removing domains:
+        domains = ["__".join(["d", i]) for i in args.dname]
+        for d in domains:
+            taxonomy_df=taxonomy_df[~taxonomy_df['taxonomy'].str.contains(d)]
+        # Save output
+        taxonomy_df.to_csv(args.output, sep="\t", index=False)      
+    #Removal of species
+    elif args.sname:
+        species = ["__".join(["s", i]) for i in args.sname]
+        for s in species:
+           taxonomy_df=taxonomy_df[~taxonomy_df['taxonomy'].str.contains(s)]
+        # Save output
+        taxonomy_df.to_csv(args.output, sep="\t", index=False)
+    else: 
+        # Save output
+        taxonomy_df.to_csv(args.output,index=False,sep="\t")
+
+    # Write only taxonomy
+    onlytaxonomy = taxonomy_df.filter(regex=f'name|lvl_type|taxonomy',axis=1)
+    onlytaxonomy.to_csv("taxonomy.tsv",sep="\t",index=False)
 
