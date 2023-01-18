@@ -1,0 +1,103 @@
+100.00	19773	0	R	1	root
+100.00	19773	0	R1	131567	  cellular organisms
+100.00	19773	10	D	2	    Bacteria
+ 99.18	19610	0	P	1224	      Proteobacteria
+ 99.13	19601	0	C	1236	        Gammaproteobacteria
+ 98.74	19523	0	O	135614	          Xanthomonadales
+ 98.73	19521	0	F	32033	            Xanthomonadaceae
+ 98.73	19521	11	G	40323	              Stenotrophomonas
+ 98.67	19510	19510	S	216778	                Stenotrophomonas rhizophila
+  0.01	2	0	F	1775411	            Rhodanobacteraceae
+  0.01	2	0	G	70411	              Frateuria
+  0.01	2	0	S	81475	                Frateuria aurantia
+  0.01	2	2	S1	767434	                  Frateuria aurantia DSM 6220
+  0.39	77	0	O	91347	          Enterobacterales
+  0.36	72	10	F	543	            Enterobacteriaceae
+  0.17	34	0	G	570	              Klebsiella
+  0.17	34	34	S	573	                Klebsiella pneumoniae
+  0.12	23	0	G	561	              Escherichia
+  0.12	23	23	S	562	                Escherichia coli
+  0.02	3	0	G	590	              Salmonella
+  0.02	3	0	S	28901	                Salmonella enterica
+  0.02	3	0	S1	59201	                  Salmonella enterica subsp. enterica
+  0.01	1	1	S2	2583588	                    Salmonella enterica subsp. enterica serovar 1,4,[5],12:i:-
+  0.01	1	0	S2	58096	                    Salmonella enterica subsp. enterica serovar Bareilly
+  0.01	1	1	S3	1182172	                      Salmonella enterica subsp. enterica serovar Bareilly str. CFSAN000661
+  0.01	1	0	S2	57046	                    Salmonella enterica subsp. enterica serovar Paratyphi C
+  0.01	1	1	S3	476213	                      Salmonella enterica subsp. enterica serovar Paratyphi C str. RKS4594
+  0.01	2	0	F1	36866	              unclassified Enterobacteriaceae
+  0.01	2	2	S	891974	                Plautia stali symbiont
+  0.02	3	0	F	1903414	            Morganellaceae
+  0.01	1	0	G	583	              Proteus
+  0.01	1	1	S	584	                Proteus mirabilis
+  0.01	1	0	G	586	              Providencia
+  0.01	1	0	S	516075	                Providencia sneebia
+  0.01	1	1	S1	1141660	                  Providencia sneebia DSM 19967
+  0.01	1	0	G	626	              Xenorhabdus
+  0.01	1	1	S	40576	                Xenorhabdus bovienii
+  0.01	1	0	F	1903410	            Pectobacteriaceae
+  0.01	1	0	G	122277	              Pectobacterium
+  0.01	1	0	S	1905730	                Pectobacterium parmentieri
+  0.01	1	1	S1	561231	                  Pectobacterium parmentieri WPP163
+  0.01	1	0	F	1903412	            Hafniaceae
+  0.01	1	1	G	635	              Edwardsiella
+  0.01	1	0	O	135625	          Pasteurellales
+  0.01	1	0	F	712	            Pasteurellaceae
+  0.01	1	0	G	724	              Haemophilus
+  0.01	1	1	S	729	                Haemophilus parainfluenzae
+  0.04	7	0	C	28216	        Betaproteobacteria
+  0.04	7	0	O	80840	          Burkholderiales
+  0.04	7	0	F	119060	            Burkholderiaceae
+  0.03	5	0	G	48736	              Ralstonia
+  0.03	5	5	S	329	                Ralstonia pickettii
+  0.01	2	2	G	106589	              Cupriavidus
+  0.01	1	0	C	28211	        Alphaproteobacteria
+  0.01	1	0	O	204457	          Sphingomonadales
+  0.01	1	0	F	41297	            Sphingomonadaceae
+  0.01	1	0	G	13687	              Sphingomonas
+  0.01	1	0	G1	196159	                unclassified Sphingomonas
+  0.01	1	1	S	2596913	                  Sphingomonas sp. NBWT7
+  0.01	1	0	C	1553900	        Oligoflexia
+  0.01	1	0	O	213481	          Bdellovibrionales
+  0.01	1	0	F	213483	            Bdellovibrionaceae
+  0.01	1	0	G	958	              Bdellovibrio
+  0.01	1	0	S	453816	                Bdellovibrio exovorus
+  0.01	1	1	S1	1184267	                  Bdellovibrio exovorus JSS
+  0.76	151	0	D1	1783272	      Terrabacteria group
+  0.42	83	0	P	201174	        Actinobacteria
+  0.42	83	0	C	1760	          Actinobacteria
+  0.31	62	0	O	85006	            Micrococcales
+  0.31	62	0	F	1268	              Micrococcaceae
+  0.31	62	62	G	57493	                Kocuria
+  0.11	21	0	O	85011	            Streptomycetales
+  0.11	21	0	F	2062	              Streptomycetaceae
+  0.11	21	0	G	1883	                Streptomyces
+  0.11	21	0	S	1950	                  Streptomyces peucetius
+  0.11	21	0	S1	55158	                    Streptomyces peucetius subsp. caesius
+  0.11	21	21	S2	316280	                      Streptomyces peucetius subsp. caesius ATCC 27952
+  0.34	68	0	P	1239	        Firmicutes
+  0.33	66	0	C	91061	          Bacilli
+  0.33	66	0	O	1385	            Bacillales
+  0.33	66	0	F	186822	              Paenibacillaceae
+  0.33	66	60	G	44249	                Paenibacillus
+  0.03	6	6	S	1406	                  Paenibacillus polymyxa
+  0.01	2	0	C	186801	          Clostridia
+  0.01	2	0	O	186802	            Clostridiales
+  0.01	2	0	F	186807	              Peptococcaceae
+  0.01	2	0	G	79206	                Desulfosporosinus
+  0.01	2	0	S	79209	                  Desulfosporosinus meridiei
+  0.01	2	2	S1	768704	                    Desulfosporosinus meridiei DSM 13257
+  0.01	1	0	D1	1783270	      FCB group
+  0.01	1	0	D2	68336	        Bacteroidetes/Chlorobi group
+  0.01	1	0	P	976	          Bacteroidetes
+  0.01	1	0	C	117743	            Flavobacteriia
+  0.01	1	0	O	200644	              Flavobacteriales
+  0.01	1	0	F	49546	                Flavobacteriaceae
+  0.01	1	0	G	286104	                  Winogradskyella
+  0.01	1	1	S	2686077	                    Winogradskyella forsetii
+  0.01	1	0	P	200918	      Thermotogae
+  0.01	1	0	C	188708	        Thermotogae
+  0.01	1	0	O	2419	          Thermotogales
+  0.01	1	0	F	1643950	            Fervidobacteriaceae
+  0.01	1	0	G	2422	              Fervidobacterium
+  0.01	1	1	S	93466	                Fervidobacterium pennivorans

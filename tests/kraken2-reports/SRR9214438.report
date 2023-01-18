@@ -1,0 +1,117 @@
+100.00	18533	0	R	1	root
+100.00	18533	0	R1	131567	  cellular organisms
+100.00	18533	9	D	2	    Bacteria
+ 97.53	18076	0	P	1224	      Proteobacteria
+ 97.46	18062	1	C	1236	        Gammaproteobacteria
+ 97.24	18022	0	O	135614	          Xanthomonadales
+ 97.24	18022	0	F	32033	            Xanthomonadaceae
+ 97.24	18022	18	G	40323	              Stenotrophomonas
+ 97.15	18004	18004	S	216778	                Stenotrophomonas rhizophila
+  0.15	28	0	O	91347	          Enterobacterales
+  0.14	26	2	F	543	            Enterobacteriaceae
+  0.07	13	0	G	570	              Klebsiella
+  0.07	13	13	S	573	                Klebsiella pneumoniae
+  0.05	10	0	G	561	              Escherichia
+  0.05	10	10	S	562	                Escherichia coli
+  0.01	1	0	G	590	              Salmonella
+  0.01	1	0	S	28901	                Salmonella enterica
+  0.01	1	0	S1	59201	                  Salmonella enterica subsp. enterica
+  0.01	1	0	S2	57046	                    Salmonella enterica subsp. enterica serovar Paratyphi C
+  0.01	1	1	S3	476213	                      Salmonella enterica subsp. enterica serovar Paratyphi C str. RKS4594
+  0.01	2	0	F	1903410	            Pectobacteriaceae
+  0.01	2	0	G	84565	              Sodalis
+  0.01	2	2	S	1929246	                Sodalis endosymbiont of Henestaris halophilus
+  0.06	11	0	O	72274	          Pseudomonadales
+  0.04	7	0	F	468	            Moraxellaceae
+  0.04	7	5	G	469	              Acinetobacter
+  0.01	2	2	S	108980	                Acinetobacter ursingii
+  0.02	4	0	F	135621	            Pseudomonadaceae
+  0.02	4	4	G	286	              Pseudomonas
+  0.05	10	0	C	28216	        Betaproteobacteria
+  0.05	10	0	O	80840	          Burkholderiales
+  0.05	10	0	F	119060	            Burkholderiaceae
+  0.05	10	0	G	48736	              Ralstonia
+  0.04	7	7	S	329	                Ralstonia pickettii
+  0.02	3	3	S	190721	                Ralstonia insidiosa
+  0.02	4	0	C	28211	        Alphaproteobacteria
+  0.02	3	0	O	204457	          Sphingomonadales
+  0.02	3	0	F	41297	            Sphingomonadaceae
+  0.02	3	3	G	13687	              Sphingomonas
+  0.01	1	0	O	204455	          Rhodobacterales
+  0.01	1	0	F	31989	            Rhodobacteraceae
+  0.01	1	1	G	265	              Paracoccus
+  2.19	406	0	D1	1783272	      Terrabacteria group
+  1.51	280	0	P	201174	        Actinobacteria
+  1.51	280	0	C	1760	          Actinobacteria
+  1.48	274	0	O	85006	            Micrococcales
+  1.48	274	0	F	1268	              Micrococcaceae
+  1.47	273	273	G	57493	                Kocuria
+  0.01	1	1	G	1269	                Micrococcus
+  0.02	4	0	O	85011	            Streptomycetales
+  0.02	4	0	F	2062	              Streptomycetaceae
+  0.02	4	0	G	1883	                Streptomyces
+  0.02	4	0	S	1950	                  Streptomyces peucetius
+  0.02	4	0	S1	55158	                    Streptomyces peucetius subsp. caesius
+  0.02	4	4	S2	316280	                      Streptomyces peucetius subsp. caesius ATCC 27952
+  0.01	2	0	O	85007	            Corynebacteriales
+  0.01	2	0	O1	697024	              Corynebacteriales incertae sedis
+  0.01	2	0	G	1847725	                Lawsonella
+  0.01	2	2	S	1528099	                  Lawsonella clevelandensis
+  0.68	126	0	P	1239	        Firmicutes
+  0.67	124	0	C	91061	          Bacilli
+  0.65	121	0	O	1385	            Bacillales
+  0.64	119	0	F	186822	              Paenibacillaceae
+  0.64	119	108	G	44249	                Paenibacillus
+  0.04	8	6	S	1406	                  Paenibacillus polymyxa
+  0.01	1	1	S1	1413214	                    Paenibacillus polymyxa SQR-21
+  0.01	1	1	S1	1429244	                    Paenibacillus polymyxa CR1
+  0.01	2	2	S	79263	                  Paenibacillus chitinolyticus
+  0.01	1	1	S	169760	                  Paenibacillus stellifer
+  0.01	2	0	F	90964	              Staphylococcaceae
+  0.01	2	2	G	1279	                Staphylococcus
+  0.02	3	0	O	186826	            Lactobacillales
+  0.02	3	0	F	1300	              Streptococcaceae
+  0.02	3	2	G	1301	                Streptococcus
+  0.01	1	1	S	1308	                  Streptococcus thermophilus
+  0.01	2	0	C	186801	          Clostridia
+  0.01	2	0	O	186802	            Clostridiales
+  0.01	1	0	F	186807	              Peptococcaceae
+  0.01	1	0	G	79206	                Desulfosporosinus
+  0.01	1	0	S	885581	                  Desulfosporosinus acidiphilus
+  0.01	1	1	S1	646529	                    Desulfosporosinus acidiphilus SJ4
+  0.01	1	0	F	541000	              Ruminococcaceae
+  0.01	1	0	G	1263	                Ruminococcus
+  0.01	1	0	G1	2608920	                  unclassified Ruminococcus
+  0.01	1	1	S	2564099	                    Ruminococcus sp. JE7A12
+  0.18	33	0	D1	1783270	      FCB group
+  0.18	33	0	D2	68336	        Bacteroidetes/Chlorobi group
+  0.18	33	0	P	976	          Bacteroidetes
+  0.15	27	0	C	117743	            Flavobacteriia
+  0.15	27	0	O	200644	              Flavobacteriales
+  0.15	27	0	F	2762318	                Weeksellaceae
+  0.15	27	27	F1	2782232	                  Chryseobacterium group
+  0.02	4	0	C	200643	            Bacteroidia
+  0.02	4	0	O	171549	              Bacteroidales
+  0.02	4	0	F	171552	                Prevotellaceae
+  0.02	4	0	G	838	                  Prevotella
+  0.01	2	2	S	28132	                    Prevotella melaninogenica
+  0.01	2	2	S	1177574	                    Prevotella jejuni
+  0.01	2	0	C	768503	            Cytophagia
+  0.01	2	0	O	768507	              Cytophagales
+  0.01	2	0	F	89373	                Cytophagaceae
+  0.01	2	0	G	107	                  Spirosoma
+  0.01	2	0	G1	2621999	                    unclassified Spirosoma
+  0.01	2	2	S	2666025	                      Spirosoma sp. I-24
+  0.03	6	0	P	32066	      Fusobacteria
+  0.03	6	0	C	203490	        Fusobacteriia
+  0.03	6	0	O	203491	          Fusobacteriales
+  0.03	6	0	F	203492	            Fusobacteriaceae
+  0.03	6	0	G	848	              Fusobacterium
+  0.03	6	6	S	851	                Fusobacterium nucleatum
+  0.02	3	0	P	200918	      Thermotogae
+  0.02	3	0	C	188708	        Thermotogae
+  0.02	3	0	O	2419	          Thermotogales
+  0.02	3	0	F	1643950	            Fervidobacteriaceae
+  0.02	3	0	G	2422	              Fervidobacterium
+  0.02	3	0	S	93466	                Fervidobacterium pennivorans
+  0.02	3	3	S1	771875	                  Fervidobacterium pennivorans DSM 9078

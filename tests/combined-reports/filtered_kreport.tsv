@@ -1,0 +1,627 @@
+SRR9214437	SRR9214438	SRR9214439	lvl_type	name	taxonomy
+0	0	0	u	unclassified	u__unclassified
+26083	18533	19773	r	root	r__root
+26083	18533	19773	r1	cellular organisms	r1__cellular organisms
+26083	18533	19773	d	Bacteria	d__Bacteria
+14742	18076	19610	p	Proteobacteria	p__Proteobacteria
+14284	18062	19601	c	Gammaproteobacteria	c__Gammaproteobacteria
+610	18022	19523	o	Xanthomonadales	o__Xanthomonadales
+609	18022	19521	f	Xanthomonadaceae	f__Xanthomonadaceae
+609	18022	19521	g	Stenotrophomonas	g__Stenotrophomonas
+604	18004	19510	s	Stenotrophomonas rhizophila	s__Stenotrophomonas rhizophila
+4	0	0	g1	Stenotrophomonas maltophilia group	g1__Stenotrophomonas maltophilia group
+4	0	0	s	Stenotrophomonas maltophilia	s__Stenotrophomonas maltophilia
+4	0	0	s1	Stenotrophomonas maltophilia D457	s1__Stenotrophomonas maltophilia D457
+1	0	2	f	Rhodanobacteraceae	f__Rhodanobacteraceae
+1	0	2	g	Frateuria	g__Frateuria
+1	0	2	s	Frateuria aurantia	s__Frateuria aurantia
+1	0	2	s1	Frateuria aurantia DSM 6220	s1__Frateuria aurantia DSM 6220
+12804	28	77	o	Enterobacterales	o__Enterobacterales
+11404	26	72	f	Enterobacteriaceae	f__Enterobacteriaceae
+4634	10	23	g	Escherichia	g__Escherichia
+4582	10	23	s	Escherichia coli	s__Escherichia coli
+40	0	0	s1	Escherichia coli UMNF18	s1__Escherichia coli UMNF18
+21	0	0	s1	Escherichia coli O68:H12	s1__Escherichia coli O68:H12
+12	0	0	s1	Escherichia coli O157:H7	s1__Escherichia coli O157:H7
+9	0	0	s2	Escherichia coli O157:H7 str. TW14588	s2__Escherichia coli O157:H7 str. TW14588
+2	0	0	s2	Escherichia coli O157:H7 str. SS17	s2__Escherichia coli O157:H7 str. SS17
+10	0	0	s1	Escherichia coli ATCC 25922	s1__Escherichia coli ATCC 25922
+10	0	0	s1	Escherichia coli O44:H18	s1__Escherichia coli O44:H18
+10	0	0	s2	Escherichia coli 042	s2__Escherichia coli 042
+7	0	0	s1	Escherichia coli HS	s1__Escherichia coli HS
+5	0	0	s1	Escherichia coli 536	s1__Escherichia coli 536
+4	0	0	s1	Escherichia coli APEC O1	s1__Escherichia coli APEC O1
+4	0	0	s1	Escherichia coli O104:H4	s1__Escherichia coli O104:H4
+4	0	0	s2	Escherichia coli O104:H4 str. 2009EL-2050	s2__Escherichia coli O104:H4 str. 2009EL-2050
+1	0	0	s1	Escherichia coli ABU 83972	s1__Escherichia coli ABU 83972
+1	0	0	s1	Escherichia coli SMS-3-5	s1__Escherichia coli SMS-3-5
+20	0	0	s	Escherichia albertii	s__Escherichia albertii
+2	0	0	s1	Escherichia albertii KF1	s1__Escherichia albertii KF1
+8	0	0	s	Escherichia marmotae	s__Escherichia marmotae
+4	0	0	s	Escherichia fergusonii	s__Escherichia fergusonii
+3972	13	34	g	Klebsiella	g__Klebsiella
+3865	13	34	s	Klebsiella pneumoniae	s__Klebsiella pneumoniae
+2	0	0	s1	Klebsiella pneumoniae 30660/NJST258_1	s1__Klebsiella pneumoniae 30660/NJST258_1
+98	0	0	s	Klebsiella aerogenes	s__Klebsiella aerogenes
+4	0	0	s	Klebsiella huaxiensis	s__Klebsiella huaxiensis
+4	0	0	s	Klebsiella variicola	s__Klebsiella variicola
+3	0	0	s1	Klebsiella variicola At-22	s1__Klebsiella variicola At-22
+1	0	0	s	Klebsiella michiganensis	s__Klebsiella michiganensis
+1136	1	3	g	Salmonella	g__Salmonella
+1090	1	3	s	Salmonella enterica	s__Salmonella enterica
+337	1	3	s1	Salmonella enterica subsp. enterica	s1__Salmonella enterica subsp. enterica
+88	0	0	s2	Salmonella enterica subsp. enterica serovar Typhimurium	s2__Salmonella enterica subsp. enterica serovar Typhimurium
+11	0	0	s3	Salmonella enterica subsp. enterica serovar Typhimurium str. 798	s3__Salmonella enterica subsp. enterica serovar Typhimurium str. 798
+48	0	1	s2	Salmonella enterica subsp. enterica serovar 1,4,[5],12:i:-	s2__Salmonella enterica subsp. enterica serovar 1,4,[5],12:i:-
+31	0	1	s2	Salmonella enterica subsp. enterica serovar Bareilly	s2__Salmonella enterica subsp. enterica serovar Bareilly
+21	0	0	s3	Salmonella enterica subsp. enterica serovar Bareilly str. CFSAN000752	s3__Salmonella enterica subsp. enterica serovar Bareilly str. CFSAN000752
+6	0	1	s3	Salmonella enterica subsp. enterica serovar Bareilly str. CFSAN000661	s3__Salmonella enterica subsp. enterica serovar Bareilly str. CFSAN000661
+4	0	0	s3	Salmonella enterica subsp. enterica serovar Bareilly str. CFSAN000189	s3__Salmonella enterica subsp. enterica serovar Bareilly str. CFSAN000189
+21	0	0	s2	Salmonella enterica subsp. enterica serovar Thompson	s2__Salmonella enterica subsp. enterica serovar Thompson
+12	0	0	s2	Salmonella enterica subsp. enterica serovar Heidelberg	s2__Salmonella enterica subsp. enterica serovar Heidelberg
+6	0	0	s3	Salmonella enterica subsp. enterica serovar Heidelberg str. 41578	s3__Salmonella enterica subsp. enterica serovar Heidelberg str. 41578
+2	0	0	s3	Salmonella enterica subsp. enterica serovar Heidelberg str. B182	s3__Salmonella enterica subsp. enterica serovar Heidelberg str. B182
+11	0	0	s2	Salmonella enterica subsp. enterica serovar Krefeld	s2__Salmonella enterica subsp. enterica serovar Krefeld
+11	0	0	s3	Salmonella enterica subsp. enterica serovar Krefeld str. SA20030536	s3__Salmonella enterica subsp. enterica serovar Krefeld str. SA20030536
+8	0	0	s2	Salmonella enterica subsp. enterica serovar Montevideo	s2__Salmonella enterica subsp. enterica serovar Montevideo
+8	0	0	s2	Salmonella enterica subsp. enterica serovar Enteritidis	s2__Salmonella enterica subsp. enterica serovar Enteritidis
+7	0	0	s2	Salmonella enterica subsp. enterica serovar Rough O:-:-	s2__Salmonella enterica subsp. enterica serovar Rough O:-:-
+5	0	0	s2	Salmonella enterica subsp. enterica serovar Saintpaul	s2__Salmonella enterica subsp. enterica serovar Saintpaul
+5	0	0	s2	Salmonella enterica subsp. enterica serovar Newport	s2__Salmonella enterica subsp. enterica serovar Newport
+5	0	0	s3	Salmonella enterica subsp. enterica serovar Newport str. USMARC-S3124.1	s3__Salmonella enterica subsp. enterica serovar Newport str. USMARC-S3124.1
+1	1	1	s2	Salmonella enterica subsp. enterica serovar Paratyphi C	s2__Salmonella enterica subsp. enterica serovar Paratyphi C
+1	1	1	s3	Salmonella enterica subsp. enterica serovar Paratyphi C str. RKS4594	s3__Salmonella enterica subsp. enterica serovar Paratyphi C str. RKS4594
+3	0	0	s2	Salmonella enterica subsp. enterica serovar Anatum	s2__Salmonella enterica subsp. enterica serovar Anatum
+3	0	0	s2	Salmonella enterica subsp. enterica serovar Typhi	s2__Salmonella enterica subsp. enterica serovar Typhi
+2	0	0	s2	Salmonella enterica subsp. enterica serovar Worthington	s2__Salmonella enterica subsp. enterica serovar Worthington
+1	0	0	s2	Salmonella enterica subsp. enterica serovar Dublin	s2__Salmonella enterica subsp. enterica serovar Dublin
+1	0	0	s2	Salmonella enterica subsp. enterica serovar California	s2__Salmonella enterica subsp. enterica serovar California
+10	0	0	s1	Salmonella enterica subsp. houtenae	s1__Salmonella enterica subsp. houtenae
+10	0	0	s2	Salmonella enterica subsp. houtenae str. ATCC BAA-1581	s2__Salmonella enterica subsp. houtenae str. ATCC BAA-1581
+34	0	0	s	Salmonella bongori	s__Salmonella bongori
+11	0	0	s1	Salmonella bongori CFSAN000510	s1__Salmonella bongori CFSAN000510
+9	0	0	g1	unclassified Salmonella	g1__unclassified Salmonella
+9	0	0	s	Salmonella sp. HNK130	s__Salmonella sp. HNK130
+158	0	0	f1	Enterobacteriaceae incertae sedis	f1__Enterobacteriaceae incertae sedis
+158	0	0	f2	ant, tsetse, mealybug, aphid, etc. endosymbionts	f2__ant, tsetse, mealybug, aphid, etc. endosymbionts
+136	0	0	f3	ant endosymbionts	f3__ant endosymbionts
+136	0	0	g	Candidatus Blochmannia	g__Candidatus Blochmannia
+136	0	0	g1	unclassified Candidatus Blochmannia endosymbionts	g1__unclassified Candidatus Blochmannia endosymbionts
+133	0	0	s	Blochmannia endosymbiont of Colobopsis nipponica	s__Blochmannia endosymbiont of Colobopsis nipponica
+3	0	0	s	Blochmannia endosymbiont of Polyrhachis (Hedomyrma) turneri	s__Blochmannia endosymbiont of Polyrhachis (Hedomyrma) turneri
+18	0	0	f3	aphid secondary symbionts	f3__aphid secondary symbionts
+12	0	0	s	secondary endosymbiont of Ctenarytaina eucalypti	s__secondary endosymbiont of Ctenarytaina eucalypti
+6	0	0	s	secondary endosymbiont of Heteropsylla cubana	s__secondary endosymbiont of Heteropsylla cubana
+4	0	0	g	Candidatus Annandia	g__Candidatus Annandia
+4	0	0	s	Candidatus Annandia adelgestsuga	s__Candidatus Annandia adelgestsuga
+74	0	0	g	Enterobacter	g__Enterobacter
+67	0	0	g1	Enterobacter cloacae complex	g1__Enterobacter cloacae complex
+39	0	0	s	Enterobacter hormaechei	s__Enterobacter hormaechei
+21	0	0	g2	unclassified Enterobacter cloacae complex	g2__unclassified Enterobacter cloacae complex
+21	0	0	s	Enterobacter cloacae complex sp.	s__Enterobacter cloacae complex sp.
+5	0	0	s	Enterobacter ludwigii	s__Enterobacter ludwigii
+2	0	0	s	Enterobacter roggenkampii	s__Enterobacter roggenkampii
+6	0	0	g1	unclassified Enterobacter	g1__unclassified Enterobacter
+6	0	0	s	Enterobacter sp. JUb54	s__Enterobacter sp. JUb54
+1	0	0	s	Enterobacter bugandensis	s__Enterobacter bugandensis
+50	0	0	g	Shigella	g__Shigella
+46	0	0	s	Shigella flexneri	s__Shigella flexneri
+3	0	0	s1	Shigella flexneri 2a	s1__Shigella flexneri 2a
+2	0	0	s	Shigella boydii	s__Shigella boydii
+28	0	2	f1	unclassified Enterobacteriaceae	f1__unclassified Enterobacteriaceae
+23	0	2	s	Plautia stali symbiont	s__Plautia stali symbiont
+3	0	0	s	Enterobacteriaceae endosymbiont of Plateumaris braccata	s__Enterobacteriaceae endosymbiont of Plateumaris braccata
+11	0	0	g	Candidatus Ishikawaella	g__Candidatus Ishikawaella
+11	0	0	s	Candidatus Ishikawaella capsulata	s__Candidatus Ishikawaella capsulata
+11	0	0	s1	Candidatus Ishikawaella capsulata Mpkobe	s1__Candidatus Ishikawaella capsulata Mpkobe
+7	0	0	g	Raoultella	g__Raoultella
+6	0	0	s	Raoultella ornithinolytica	s__Raoultella ornithinolytica
+1	0	0	s	Raoultella terrigena	s__Raoultella terrigena
+6	0	0	g	Scandinavium	g__Scandinavium
+6	0	0	s	Scandinavium goeteborgense	s__Scandinavium goeteborgense
+2	0	0	g	Kosakonia	g__Kosakonia
+2	0	0	s	Kosakonia cowanii	s__Kosakonia cowanii
+2	0	0	g	Leclercia	g__Leclercia
+2	0	0	g1	unclassified Leclercia	g1__unclassified Leclercia
+2	0	0	s	Leclercia sp. 1106151	s__Leclercia sp. 1106151
+987	0	3	f	Morganellaceae	f__Morganellaceae
+795	0	1	g	Proteus	g__Proteus
+794	0	1	s	Proteus mirabilis	s__Proteus mirabilis
+166	0	1	g	Providencia	g__Providencia
+166	0	1	s	Providencia sneebia	s__Providencia sneebia
+166	0	1	s1	Providencia sneebia DSM 19967	s1__Providencia sneebia DSM 19967
+19	0	0	g	Arsenophonus	g__Arsenophonus
+19	0	0	s	Arsenophonus nasoniae	s__Arsenophonus nasoniae
+5	0	0	g	Morganella	g__Morganella
+5	0	0	s	Morganella morganii	s__Morganella morganii
+2	0	1	g	Xenorhabdus	g__Xenorhabdus
+2	0	1	s	Xenorhabdus bovienii	s__Xenorhabdus bovienii
+86	0	0	f	Yersiniaceae	f__Yersiniaceae
+51	0	0	g	Yersinia	g__Yersinia
+21	0	0	s	Yersinia entomophaga	s__Yersinia entomophaga
+14	0	0	g1	Yersinia pseudotuberculosis complex	g1__Yersinia pseudotuberculosis complex
+14	0	0	s	Yersinia pestis	s__Yersinia pestis
+10	0	0	s1	Yersinia pestis str. Pestoides B	s1__Yersinia pestis str. Pestoides B
+2	0	0	s1	Yersinia pestis Pestoides G	s1__Yersinia pestis Pestoides G
+2	0	0	s1	Yersinia pestis 790	s1__Yersinia pestis 790
+14	0	0	s	Yersinia enterocolitica	s__Yersinia enterocolitica
+1	0	0	s	Yersinia frederiksenii	s__Yersinia frederiksenii
+1	0	0	s1	Yersinia frederiksenii Y225	s1__Yersinia frederiksenii Y225
+31	0	0	g	Serratia	g__Serratia
+16	0	0	s	Serratia symbiotica	s__Serratia symbiotica
+5	0	0	s1	Serratia symbiotica str. 'Cinara cedri'	s1__Serratia symbiotica str. 'Cinara cedri'
+11	0	0	s	Serratia plymuthica	s__Serratia plymuthica
+11	0	0	s1	Serratia plymuthica RVH1	s1__Serratia plymuthica RVH1
+4	0	0	s	Serratia rubidaea	s__Serratia rubidaea
+3	0	0	g	Candidatus Fukatsuia	g__Candidatus Fukatsuia
+3	0	0	s	Candidatus Fukatsuia symbiotica	s__Candidatus Fukatsuia symbiotica
+1	0	0	g	Rahnella	g__Rahnella
+1	0	0	s	Rahnella aquatilis	s__Rahnella aquatilis
+1	0	0	s1	Rahnella aquatilis HX2	s1__Rahnella aquatilis HX2
+66	0	0	f	Erwiniaceae	f__Erwiniaceae
+27	0	0	g	Izhakiella	g__Izhakiella
+27	0	0	g1	unclassified Izhakiella	g1__unclassified Izhakiella
+27	0	0	s	Izhakiella sp. KSNA2	s__Izhakiella sp. KSNA2
+20	0	0	g	Buchnera	g__Buchnera
+20	0	0	s	Buchnera aphidicola	s__Buchnera aphidicola
+15	0	0	s1	Buchnera aphidicola (Hyperomyzus lactucae)	s1__Buchnera aphidicola (Hyperomyzus lactucae)
+4	0	0	s1	Buchnera aphidicola (Baizongia pistaciae)	s1__Buchnera aphidicola (Baizongia pistaciae)
+4	0	0	s2	Buchnera aphidicola str. Bp (Baizongia pistaciae)	s2__Buchnera aphidicola str. Bp (Baizongia pistaciae)
+11	0	0	g	Pantoea	g__Pantoea
+5	0	0	s	Candidatus Pantoea carbekii	s__Candidatus Pantoea carbekii
+5	0	0	s	Pantoea stewartii	s__Pantoea stewartii
+3	0	0	s1	Pantoea stewartii subsp. stewartii	s1__Pantoea stewartii subsp. stewartii
+3	0	0	s2	Pantoea stewartii subsp. stewartii DC283	s2__Pantoea stewartii subsp. stewartii DC283
+1	0	0	s	Pantoea dispersa	s__Pantoea dispersa
+48	2	1	f	Pectobacteriaceae	f__Pectobacteriaceae
+24	2	0	g	Sodalis	g__Sodalis
+22	0	0	s	Candidatus Sodalis pierantonius	s__Candidatus Sodalis pierantonius
+22	0	0	s1	Candidatus Sodalis pierantonius str. SOPE	s1__Candidatus Sodalis pierantonius str. SOPE
+2	2	0	s	Sodalis endosymbiont of Henestaris halophilus	s__Sodalis endosymbiont of Henestaris halophilus
+15	0	0	g	Dickeya	g__Dickeya
+5	0	0	s	Dickeya solani	s__Dickeya solani
+1	0	0	s	Dickeya chrysanthemi	s__Dickeya chrysanthemi
+1	0	0	s1	Dickeya chrysanthemi Ech1591	s1__Dickeya chrysanthemi Ech1591
+9	0	1	g	Pectobacterium	g__Pectobacterium
+9	0	1	s	Pectobacterium parmentieri	s__Pectobacterium parmentieri
+5	0	1	s1	Pectobacterium parmentieri WPP163	s1__Pectobacterium parmentieri WPP163
+6	0	1	f	Hafniaceae	f__Hafniaceae
+6	0	1	g	Edwardsiella	g__Edwardsiella
+5	0	0	s	Edwardsiella ictaluri	s__Edwardsiella ictaluri
+4	0	0	o1	Enterobacterales incertae sedis	o1__Enterobacterales incertae sedis
+4	0	0	g	Plesiomonas	g__Plesiomonas
+4	0	0	s	Plesiomonas shigelloides	s__Plesiomonas shigelloides
+320	0	0	o	Vibrionales	o__Vibrionales
+320	0	0	f	Vibrionaceae	f__Vibrionaceae
+299	0	0	g	Vibrio	g__Vibrio
+216	0	0	s	Vibrio furnissii	s__Vibrio furnissii
+35	0	0	g1	unclassified Vibrio	g1__unclassified Vibrio
+33	0	0	s	Vibrio sp. THAF191c	s__Vibrio sp. THAF191c
+2	0	0	s	Vibrio sp. THAF191d	s__Vibrio sp. THAF191d
+25	0	0	s	Vibrio cholerae	s__Vibrio cholerae
+10	0	0	s	Vibrio tapetis	s__Vibrio tapetis
+10	0	0	s1	Vibrio tapetis subsp. tapetis	s1__Vibrio tapetis subsp. tapetis
+6	0	0	s	Vibrio vulnificus	s__Vibrio vulnificus
+6	0	0	s1	Vibrio vulnificus MO6-24/O	s1__Vibrio vulnificus MO6-24/O
+6	0	0	s	Vibrio ponticus	s__Vibrio ponticus
+1	0	0	s	Vibrio anguillarum	s__Vibrio anguillarum
+1	0	0	s1	Vibrio anguillarum serovar O1	s1__Vibrio anguillarum serovar O1
+18	0	0	g	Photobacterium	g__Photobacterium
+10	0	0	s	Photobacterium gaetbulicola	s__Photobacterium gaetbulicola
+10	0	0	s1	Photobacterium gaetbulicola Gung47	s1__Photobacterium gaetbulicola Gung47
+8	0	0	s	Photobacterium damselae	s__Photobacterium damselae
+8	0	0	s1	Photobacterium damselae subsp. piscicida	s1__Photobacterium damselae subsp. piscicida
+3	0	0	g	Aliivibrio	g__Aliivibrio
+3	0	0	s	Aliivibrio salmonicida	s__Aliivibrio salmonicida
+3	0	0	s1	Aliivibrio salmonicida LFI1238	s1__Aliivibrio salmonicida LFI1238
+85	0	0	o	Aeromonadales	o__Aeromonadales
+85	0	0	f	Aeromonadaceae	f__Aeromonadaceae
+63	0	0	g	Aeromonas	g__Aeromonas
+46	0	0	s	Aeromonas veronii	s__Aeromonas veronii
+8	0	0	s	Aeromonas schubertii	s__Aeromonas schubertii
+7	0	0	g1	unclassified Aeromonas	g1__unclassified Aeromonas
+7	0	0	s	Aeromonas sp. 2692-1	s__Aeromonas sp. 2692-1
+1	0	0	s	Aeromonas media	s__Aeromonas media
+1	0	0	s1	Aeromonas media WS	s1__Aeromonas media WS
+1	0	0	s	Aeromonas salmonicida	s__Aeromonas salmonicida
+20	0	0	g	Oceanisphaera	g__Oceanisphaera
+20	0	0	s	Oceanisphaera avium	s__Oceanisphaera avium
+1	0	0	g	Tolumonas	g__Tolumonas
+1	0	0	s	Tolumonas auensis	s__Tolumonas auensis
+1	0	0	s1	Tolumonas auensis DSM 9187	s1__Tolumonas auensis DSM 9187
+70	0	0	o	Alteromonadales	o__Alteromonadales
+35	0	0	f	Alteromonadaceae	f__Alteromonadaceae
+31	0	0	g	Alteromonas	g__Alteromonas
+17	0	0	s	Alteromonas macleodii	s__Alteromonas macleodii
+17	0	0	s1	Alteromonas macleodii str. 'Balearic Sea AD45'	s1__Alteromonas macleodii str. 'Balearic Sea AD45'
+14	0	0	g1	unclassified Alteromonas	g1__unclassified Alteromonas
+14	0	0	s	Alteromonas sp. RKMC-009	s__Alteromonas sp. RKMC-009
+3	0	0	g	Paraglaciecola	g__Paraglaciecola
+3	0	0	s	Paraglaciecola psychrophila	s__Paraglaciecola psychrophila
+3	0	0	s1	Paraglaciecola psychrophila 170	s1__Paraglaciecola psychrophila 170
+1	0	0	g	Lacimicrobium	g__Lacimicrobium
+1	0	0	s	Lacimicrobium alkaliphilum	s__Lacimicrobium alkaliphilum
+29	0	0	f	Shewanellaceae	f__Shewanellaceae
+29	0	0	g	Shewanella	g__Shewanella
+14	0	0	g1	unclassified Shewanella	g1__unclassified Shewanella
+13	0	0	s	Shewanella sp. YLB-08	s__Shewanella sp. YLB-08
+12	0	0	s	Shewanella bicestrii	s__Shewanella bicestrii
+1	0	0	f	Moritellaceae	f__Moritellaceae
+1	0	0	g	Moritella	g__Moritella
+1	0	0	s	Moritella viscosa	s__Moritella viscosa
+40	11	0	o	Pseudomonadales	o__Pseudomonadales
+20	7	0	f	Moraxellaceae	f__Moraxellaceae
+6	7	0	g	Acinetobacter	g__Acinetobacter
+3	0	0	g1	unclassified Acinetobacter	g1__unclassified Acinetobacter
+3	0	0	s	Acinetobacter sp. WCHAc010034	s__Acinetobacter sp. WCHAc010034
+0	2	0	s	Acinetobacter ursingii	s__Acinetobacter ursingii
+12	0	0	g	Psychrobacter	g__Psychrobacter
+2	0	0	g	Moraxella	g__Moraxella
+2	0	0	s	Moraxella osloensis	s__Moraxella osloensis
+20	4	0	f	Pseudomonadaceae	f__Pseudomonadaceae
+20	4	0	g	Pseudomonas	g__Pseudomonas
+6	0	0	g1	Pseudomonas aeruginosa group	g1__Pseudomonas aeruginosa group
+6	0	0	s	Pseudomonas aeruginosa	s__Pseudomonas aeruginosa
+4	0	0	s1	Pseudomonas aeruginosa LESlike1	s1__Pseudomonas aeruginosa LESlike1
+6	0	0	g1	unclassified Pseudomonas	g1__unclassified Pseudomonas
+5	0	0	s	Pseudomonas sp. NS1(2017)	s__Pseudomonas sp. NS1(2017)
+1	0	0	s	Pseudomonas sp. SWI6	s__Pseudomonas sp. SWI6
+4	0	0	g1	Pseudomonas fluorescens group	g1__Pseudomonas fluorescens group
+3	0	0	s	Pseudomonas azotoformans	s__Pseudomonas azotoformans
+1	0	0	s	Pseudomonas synxantha	s__Pseudomonas synxantha
+1	0	0	s1	Pseudomonas synxantha BG33R	s1__Pseudomonas synxantha BG33R
+51	0	0	o	Oceanospirillales	o__Oceanospirillales
+26	0	0	f	Halomonadaceae	f__Halomonadaceae
+26	0	0	f1	Zymobacter group	f1__Zymobacter group
+25	0	0	g	Candidatus Portiera	g__Candidatus Portiera
+25	0	0	s	Candidatus Portiera aleyrodidarum	s__Candidatus Portiera aleyrodidarum
+1	0	0	g	Candidatus Carsonella	g__Candidatus Carsonella
+1	0	0	s	Candidatus Carsonella ruddii	s__Candidatus Carsonella ruddii
+25	0	0	f	Oceanospirillaceae	f__Oceanospirillaceae
+25	0	0	g	Marinomonas	g__Marinomonas
+25	0	0	g1	unclassified Marinomonas	g1__unclassified Marinomonas
+25	0	0	s	Marinomonas sp. SM1966	s__Marinomonas sp. SM1966
+44	0	0	o	Legionellales	o__Legionellales
+44	0	0	f	Legionellaceae	f__Legionellaceae
+44	0	0	g	Legionella	g__Legionella
+43	0	0	s	Legionella pneumophila	s__Legionella pneumophila
+43	0	0	s1	Legionella pneumophila subsp. pneumophila	s1__Legionella pneumophila subsp. pneumophila
+1	0	0	s	Legionella longbeachae	s__Legionella longbeachae
+13	0	0	o	Chromatiales	o__Chromatiales
+11	0	0	f	Chromatiaceae	f__Chromatiaceae
+11	0	0	g	Thioflavicoccus	g__Thioflavicoccus
+11	0	0	s	Thioflavicoccus mobilis	s__Thioflavicoccus mobilis
+11	0	0	s1	Thioflavicoccus mobilis 8321	s1__Thioflavicoccus mobilis 8321
+2	0	0	f	Thioalkalispiraceae	f__Thioalkalispiraceae
+2	0	0	g	Sulfurivermis	g__Sulfurivermis
+2	0	0	s	Sulfurivermis fontis	s__Sulfurivermis fontis
+8	0	1	o	Pasteurellales	o__Pasteurellales
+8	0	1	f	Pasteurellaceae	f__Pasteurellaceae
+4	0	0	g	Histophilus	g__Histophilus
+4	0	0	s	Histophilus somni	s__Histophilus somni
+0	0	1	g	Haemophilus	g__Haemophilus
+0	0	1	s	Haemophilus parainfluenzae	s__Haemophilus parainfluenzae
+1	0	0	g	Mannheimia	g__Mannheimia
+1	0	0	s	Mannheimia haemolytica	s__Mannheimia haemolytica
+1	0	0	g	Pasteurella	g__Pasteurella
+1	0	0	s	Pasteurella multocida	s__Pasteurella multocida
+5	0	0	o	Thiotrichales	o__Thiotrichales
+4	0	0	f	Piscirickettsiaceae	f__Piscirickettsiaceae
+2	0	0	g	Thiosulfatimonas	g__Thiosulfatimonas
+2	0	0	s	Thiosulfatimonas sediminis	s__Thiosulfatimonas sediminis
+1	0	0	f	Francisellaceae	f__Francisellaceae
+2	0	0	c1	Gammaproteobacteria incertae sedis	c1__Gammaproteobacteria incertae sedis
+1	0	0	g	Pseudohongiella	g__Pseudohongiella
+1	0	0	s	Pseudohongiella spirulinae	s__Pseudohongiella spirulinae
+1	0	0	c2	sulfur-oxidizing symbionts	c2__sulfur-oxidizing symbionts
+1	0	0	g	Candidatus Ruthia	g__Candidatus Ruthia
+1	0	0	s	Candidatus Ruthia endofausta	s__Candidatus Ruthia endofausta
+1	0	0	o	Methylococcales	o__Methylococcales
+1	0	0	f	Methylococcaceae	f__Methylococcaceae
+1	0	0	g	Candidatus Methylospira	g__Candidatus Methylospira
+1	0	0	s	Candidatus Methylospira mobilis	s__Candidatus Methylospira mobilis
+263	10	7	c	Betaproteobacteria	c__Betaproteobacteria
+137	0	0	o	Neisseriales	o__Neisseriales
+137	0	0	f	Neisseriaceae	f__Neisseriaceae
+137	0	0	g	Neisseria	g__Neisseria
+67	10	7	o	Burkholderiales	o__Burkholderiales
+39	10	7	f	Burkholderiaceae	f__Burkholderiaceae
+19	10	5	g	Ralstonia	g__Ralstonia
+11	7	5	s	Ralstonia pickettii	s__Ralstonia pickettii
+8	3	0	s	Ralstonia insidiosa	s__Ralstonia insidiosa
+19	0	0	g	Burkholderia	g__Burkholderia
+17	0	0	g1	pseudomallei group	g1__pseudomallei group
+17	0	0	s	Burkholderia thailandensis	s__Burkholderia thailandensis
+17	0	0	s1	Burkholderia thailandensis 34	s1__Burkholderia thailandensis 34
+1	0	0	g1	Burkholderia cepacia complex	g1__Burkholderia cepacia complex
+0	0	2	g	Cupriavidus	g__Cupriavidus
+1	0	0	g	Paraburkholderia	g__Paraburkholderia
+1	0	0	g1	unclassified Paraburkholderia	g1__unclassified Paraburkholderia
+1	0	0	s	Paraburkholderia sp. DHF22	s__Paraburkholderia sp. DHF22
+16	0	0	f	Alcaligenaceae	f__Alcaligenaceae
+15	0	0	g	Pigmentiphaga	g__Pigmentiphaga
+15	0	0	s	Pigmentiphaga aceris	s__Pigmentiphaga aceris
+1	0	0	g	Bordetella	g__Bordetella
+1	0	0	s	Bordetella parapertussis	s__Bordetella parapertussis
+6	0	0	f	Comamonadaceae	f__Comamonadaceae
+5	0	0	g	Comamonas	g__Comamonas
+5	0	0	s	Comamonas thiooxydans	s__Comamonas thiooxydans
+1	0	0	g	Acidovorax	g__Acidovorax
+1	0	0	g1	unclassified Acidovorax	g1__unclassified Acidovorax
+1	0	0	s	Acidovorax sp. 16-35-5	s__Acidovorax sp. 16-35-5
+5	0	0	f	Oxalobacteraceae	f__Oxalobacteraceae
+1	0	0	g	Herbaspirillum	g__Herbaspirillum
+20	0	0	o	Rhodocyclales	o__Rhodocyclales
+20	0	0	f	Rhodocyclaceae	f__Rhodocyclaceae
+18	0	0	g	Azospira	g__Azospira
+5	0	0	o	Nitrosomonadales	o__Nitrosomonadales
+4	0	0	f	Methylophilaceae	f__Methylophilaceae
+4	0	0	g	Methylotenera	g__Methylotenera
+4	0	0	s	Methylotenera versatilis	s__Methylotenera versatilis
+4	0	0	s1	Methylotenera versatilis 301	s1__Methylotenera versatilis 301
+68	4	1	c	Alphaproteobacteria	c__Alphaproteobacteria
+19	1	0	o	Rhodobacterales	o__Rhodobacterales
+14	0	0	f	Hyphomonadaceae	f__Hyphomonadaceae
+13	0	0	g	Hyphomonas	g__Hyphomonas
+1	0	0	g	Hirschia	g__Hirschia
+1	0	0	s	Hirschia baltica	s__Hirschia baltica
+1	0	0	s1	Hirschia baltica ATCC 49814	s1__Hirschia baltica ATCC 49814
+5	1	0	f	Rhodobacteraceae	f__Rhodobacteraceae
+4	0	0	g	Rhodobacter	g__Rhodobacter
+4	0	0	s	Rhodobacter sphaeroides	s__Rhodobacter sphaeroides
+0	1	0	g	Paracoccus	g__Paracoccus
+7	0	0	o	Rhizobiales	o__Rhizobiales
+3	0	0	o1	Rhizobiales incertae sedis	o1__Rhizobiales incertae sedis
+3	0	0	g	Methyloceanibacter	g__Methyloceanibacter
+3	0	0	g1	unclassified Methyloceanibacter	g1__unclassified Methyloceanibacter
+3	0	0	s	Methyloceanibacter sp. wino2	s__Methyloceanibacter sp. wino2
+2	0	0	f	Phyllobacteriaceae	f__Phyllobacteriaceae
+2	0	0	g	Mesorhizobium	g__Mesorhizobium
+2	0	0	s	Mesorhizobium oceanicum	s__Mesorhizobium oceanicum
+1	0	0	f	Rhodobiaceae	f__Rhodobiaceae
+1	0	0	g	Parvibaculum	g__Parvibaculum
+1	0	0	s	Parvibaculum lavamentivorans	s__Parvibaculum lavamentivorans
+1	0	0	s1	Parvibaculum lavamentivorans DS-1	s1__Parvibaculum lavamentivorans DS-1
+1	0	0	f	Bradyrhizobiaceae	f__Bradyrhizobiaceae
+6	0	0	o	Caulobacterales	o__Caulobacterales
+6	0	0	f	Caulobacteraceae	f__Caulobacteraceae
+6	0	0	g	Brevundimonas	g__Brevundimonas
+6	0	0	o	Rhodospirillales	o__Rhodospirillales
+4	0	0	f	Rhodospirillaceae	f__Rhodospirillaceae
+4	0	0	g	Magnetospirillum	g__Magnetospirillum
+4	0	0	s	Magnetospirillum gryphiswaldense	s__Magnetospirillum gryphiswaldense
+2	0	0	f	Acetobacteraceae	f__Acetobacteraceae
+2	0	0	g	Acetobacter	g__Acetobacter
+1	3	1	o	Sphingomonadales	o__Sphingomonadales
+1	3	1	f	Sphingomonadaceae	f__Sphingomonadaceae
+1	3	1	g	Sphingomonas	g__Sphingomonas
+1	0	1	g1	unclassified Sphingomonas	g1__unclassified Sphingomonas
+0	0	1	s	Sphingomonas sp. NBWT7	s__Sphingomonas sp. NBWT7
+1	0	0	s	Sphingomonas sp. CL5.1	s__Sphingomonas sp. CL5.1
+3	0	0	o	Rickettsiales	o__Rickettsiales
+2	0	0	f	Rickettsiaceae	f__Rickettsiaceae
+2	0	0	f1	Rickettsieae	f1__Rickettsieae
+1	0	0	g	Orientia	g__Orientia
+1	0	0	s	Orientia tsutsugamushi	s__Orientia tsutsugamushi
+1	0	0	g	Rickettsia	g__Rickettsia
+1	0	0	g1	spotted fever group	g1__spotted fever group
+1	0	0	s	Rickettsia raoultii	s__Rickettsia raoultii
+1	0	0	f	Anaplasmataceae	f__Anaplasmataceae
+1	0	0	g	Neorickettsia	g__Neorickettsia
+1	0	0	s	Neorickettsia helminthoeca	s__Neorickettsia helminthoeca
+1	0	0	s1	Neorickettsia helminthoeca str. Oregon	s1__Neorickettsia helminthoeca str. Oregon
+34	0	0	p1	delta/epsilon subdivisions	p1__delta/epsilon subdivisions
+21	0	0	c	Epsilonproteobacteria	c__Epsilonproteobacteria
+21	0	0	o	Campylobacterales	o__Campylobacterales
+21	0	0	f	Helicobacteraceae	f__Helicobacteraceae
+21	0	0	g	Helicobacter	g__Helicobacter
+11	0	0	s	Helicobacter pylori	s__Helicobacter pylori
+10	0	0	s	Helicobacter cinaedi	s__Helicobacter cinaedi
+13	0	0	c	Deltaproteobacteria	c__Deltaproteobacteria
+5	0	0	o	Desulfobacterales	o__Desulfobacterales
+5	0	0	f	Desulfobulbaceae	f__Desulfobulbaceae
+5	0	0	g	Desulfobulbus	g__Desulfobulbus
+5	0	0	s	Desulfobulbus oralis	s__Desulfobulbus oralis
+2	0	0	c	Acidithiobacillia	c__Acidithiobacillia
+2	0	0	o	Acidithiobacillales	o__Acidithiobacillales
+2	0	0	f	Acidithiobacillaceae	f__Acidithiobacillaceae
+2	0	0	g	Acidithiobacillus	g__Acidithiobacillus
+0	0	1	c	Oligoflexia	c__Oligoflexia
+0	0	1	o	Bdellovibrionales	o__Bdellovibrionales
+0	0	1	f	Bdellovibrionaceae	f__Bdellovibrionaceae
+0	0	1	g	Bdellovibrio	g__Bdellovibrio
+0	0	1	s	Bdellovibrio exovorus	s__Bdellovibrio exovorus
+0	0	1	s1	Bdellovibrio exovorus JSS	s1__Bdellovibrio exovorus JSS
+5367	406	151	d1	Terrabacteria group	d1__Terrabacteria group
+5029	280	83	p	Actinobacteria	p__Actinobacteria
+5029	280	83	c	Actinobacteria	c__Actinobacteria
+4692	4	21	o	Streptomycetales	o__Streptomycetales
+4692	4	21	f	Streptomycetaceae	f__Streptomycetaceae
+4692	4	21	g	Streptomyces	g__Streptomyces
+4692	4	21	s	Streptomyces peucetius	s__Streptomyces peucetius
+4692	4	21	s1	Streptomyces peucetius subsp. caesius	s1__Streptomyces peucetius subsp. caesius
+4692	4	21	s2	Streptomyces peucetius subsp. caesius ATCC 27952	s2__Streptomyces peucetius subsp. caesius ATCC 27952
+318	274	62	o	Micrococcales	o__Micrococcales
+313	274	62	f	Micrococcaceae	f__Micrococcaceae
+313	273	62	g	Kocuria	g__Kocuria
+0	1	0	g	Micrococcus	g__Micrococcus
+5	0	0	f	Promicromonosporaceae	f__Promicromonosporaceae
+14	2	0	o	Corynebacteriales	o__Corynebacteriales
+11	0	0	f	Mycobacteriaceae	f__Mycobacteriaceae
+11	0	0	g	Mycobacterium	g__Mycobacterium
+11	0	0	s	Mycobacterium kansasii	s__Mycobacterium kansasii
+2	2	0	o1	Corynebacteriales incertae sedis	o1__Corynebacteriales incertae sedis
+2	2	0	g	Lawsonella	g__Lawsonella
+2	2	0	s	Lawsonella clevelandensis	s__Lawsonella clevelandensis
+1	0	0	f	Corynebacteriaceae	f__Corynebacteriaceae
+1	0	0	g	Corynebacterium	g__Corynebacterium
+1	0	0	s	Corynebacterium urealyticum	s__Corynebacterium urealyticum
+1	0	0	s1	Corynebacterium urealyticum DSM 7111	s1__Corynebacterium urealyticum DSM 7111
+2	0	0	o	Propionibacteriales	o__Propionibacteriales
+2	0	0	f	Propionibacteriaceae	f__Propionibacteriaceae
+2	0	0	g	Cutibacterium	g__Cutibacterium
+2	0	0	s	Cutibacterium acnes	s__Cutibacterium acnes
+317	126	68	p	Firmicutes	p__Firmicutes
+296	124	66	c	Bacilli	c__Bacilli
+295	121	66	o	Bacillales	o__Bacillales
+290	119	66	f	Paenibacillaceae	f__Paenibacillaceae
+290	119	66	g	Paenibacillus	g__Paenibacillus
+30	8	6	s	Paenibacillus polymyxa	s__Paenibacillus polymyxa
+2	1	0	s1	Paenibacillus polymyxa SQR-21	s1__Paenibacillus polymyxa SQR-21
+0	1	0	s1	Paenibacillus polymyxa CR1	s1__Paenibacillus polymyxa CR1
+7	0	0	g1	unclassified Paenibacillus	g1__unclassified Paenibacillus
+3	0	0	s	Paenibacillus sp. HB172198	s__Paenibacillus sp. HB172198
+3	0	0	s	Paenibacillus sp. PAMC21692	s__Paenibacillus sp. PAMC21692
+1	0	0	s	Paenibacillus sp. M-152	s__Paenibacillus sp. M-152
+1	2	0	s	Paenibacillus chitinolyticus	s__Paenibacillus chitinolyticus
+1	1	0	s	Paenibacillus stellifer	s__Paenibacillus stellifer
+2	0	0	s	Paenibacillus peoriae	s__Paenibacillus peoriae
+1	0	0	s	Paenibacillus yonginensis	s__Paenibacillus yonginensis
+1	0	0	s	Paenibacillus thiaminolyticus	s__Paenibacillus thiaminolyticus
+4	0	0	f	Bacillaceae	f__Bacillaceae
+4	0	0	g	Bacillus	g__Bacillus
+3	0	0	g1	Bacillus cereus group	g1__Bacillus cereus group
+3	0	0	s	Bacillus mycoides	s__Bacillus mycoides
+3	0	0	s1	Bacillus mycoides KBAB4	s1__Bacillus mycoides KBAB4
+1	0	0	g1	Bacillus subtilis group	g1__Bacillus subtilis group
+1	0	0	g2	Bacillus amyloliquefaciens group	g2__Bacillus amyloliquefaciens group
+1	0	0	s	Bacillus velezensis	s__Bacillus velezensis
+1	2	0	f	Staphylococcaceae	f__Staphylococcaceae
+1	2	0	g	Staphylococcus	g__Staphylococcus
+1	3	0	o	Lactobacillales	o__Lactobacillales
+0	3	0	f	Streptococcaceae	f__Streptococcaceae
+0	3	0	g	Streptococcus	g__Streptococcus
+0	1	0	s	Streptococcus thermophilus	s__Streptococcus thermophilus
+1	0	0	f	Lactobacillaceae	f__Lactobacillaceae
+1	0	0	g	Ligilactobacillus	g__Ligilactobacillus
+1	0	0	s	Ligilactobacillus ruminis	s__Ligilactobacillus ruminis
+1	0	0	s1	Lactobacillus ruminis ATCC 27782	s1__Lactobacillus ruminis ATCC 27782
+14	2	2	c	Clostridia	c__Clostridia
+14	2	2	o	Clostridiales	o__Clostridiales
+6	1	2	f	Peptococcaceae	f__Peptococcaceae
+3	1	2	g	Desulfosporosinus	g__Desulfosporosinus
+3	1	0	s	Desulfosporosinus acidiphilus	s__Desulfosporosinus acidiphilus
+3	1	0	s1	Desulfosporosinus acidiphilus SJ4	s1__Desulfosporosinus acidiphilus SJ4
+0	0	2	s	Desulfosporosinus meridiei	s__Desulfosporosinus meridiei
+0	0	2	s1	Desulfosporosinus meridiei DSM 13257	s1__Desulfosporosinus meridiei DSM 13257
+2	0	0	g	Dehalobacter	g__Dehalobacter
+1	0	0	g	Desulfitobacterium	g__Desulfitobacterium
+6	0	0	o1	Clostridiales incertae sedis	o1__Clostridiales incertae sedis
+6	0	0	g	Monoglobus	g__Monoglobus
+6	0	0	s	Monoglobus pectinilyticus	s__Monoglobus pectinilyticus
+1	1	0	f	Ruminococcaceae	f__Ruminococcaceae
+1	1	0	g	Ruminococcus	g__Ruminococcus
+0	1	0	g1	unclassified Ruminococcus	g1__unclassified Ruminococcus
+0	1	0	s	Ruminococcus sp. JE7A12	s__Ruminococcus sp. JE7A12
+1	0	0	s	Ruminococcus champanellensis	s__Ruminococcus champanellensis
+1	0	0	f	Clostridiaceae	f__Clostridiaceae
+1	0	0	g	Clostridium	g__Clostridium
+1	0	0	c	Negativicutes	c__Negativicutes
+1	0	0	o	Veillonellales	o__Veillonellales
+1	0	0	f	Veillonellaceae	f__Veillonellaceae
+1	0	0	g	Veillonella	g__Veillonella
+1	0	0	s	Veillonella parvula	s__Veillonella parvula
+5	0	0	p	Tenericutes	p__Tenericutes
+5	0	0	c	Mollicutes	c__Mollicutes
+5	0	0	o	Mycoplasmatales	o__Mycoplasmatales
+5	0	0	f	Mycoplasmataceae	f__Mycoplasmataceae
+3	0	0	g	Ureaplasma	g__Ureaplasma
+2	0	0	g	Mycoplasma	g__Mycoplasma
+2	0	0	s	Mycoplasma penetrans	s__Mycoplasma penetrans
+2	0	0	s1	Mycoplasma penetrans HF-2	s1__Mycoplasma penetrans HF-2
+3	0	0	p	Chloroflexi	p__Chloroflexi
+2	0	0	c	Chloroflexia	c__Chloroflexia
+2	0	0	o	Chloroflexales	o__Chloroflexales
+2	0	0	o1	Chloroflexineae	o1__Chloroflexineae
+2	0	0	f	Chloroflexaceae	f__Chloroflexaceae
+2	0	0	g	Chloroflexus	g__Chloroflexus
+2	0	0	s	Chloroflexus aggregans	s__Chloroflexus aggregans
+2	0	0	s1	Chloroflexus aggregans DSM 9485	s1__Chloroflexus aggregans DSM 9485
+1	0	0	c	Ktedonobacteria	c__Ktedonobacteria
+1	0	0	o	Ktedonobacterales	o__Ktedonobacterales
+1	0	0	f	Ktedonosporobacteraceae	f__Ktedonosporobacteraceae
+1	0	0	g	Ktedonosporobacter	g__Ktedonosporobacter
+1	0	0	s	Ktedonosporobacter rubrisoli	s__Ktedonosporobacter rubrisoli
+3	0	0	p	Deinococcus-Thermus	p__Deinococcus-Thermus
+3	0	0	c	Deinococci	c__Deinococci
+1745	33	1	d1	FCB group	d1__FCB group
+1744	33	1	d2	Bacteroidetes/Chlorobi group	d2__Bacteroidetes/Chlorobi group
+1744	33	1	p	Bacteroidetes	p__Bacteroidetes
+1702	2	0	c	Cytophagia	c__Cytophagia
+1702	2	0	o	Cytophagales	o__Cytophagales
+1702	2	0	f	Cytophagaceae	f__Cytophagaceae
+1702	2	0	g	Spirosoma	g__Spirosoma
+1702	2	0	g1	unclassified Spirosoma	g1__unclassified Spirosoma
+1702	2	0	s	Spirosoma sp. I-24	s__Spirosoma sp. I-24
+41	27	1	c	Flavobacteriia	c__Flavobacteriia
+41	27	1	o	Flavobacteriales	o__Flavobacteriales
+41	0	1	f	Flavobacteriaceae	f__Flavobacteriaceae
+41	0	1	g	Winogradskyella	g__Winogradskyella
+41	0	1	s	Winogradskyella forsetii	s__Winogradskyella forsetii
+0	27	0	f	Weeksellaceae	f__Weeksellaceae
+0	27	0	f1	Chryseobacterium group	f1__Chryseobacterium group
+0	4	0	c	Bacteroidia	c__Bacteroidia
+0	4	0	o	Bacteroidales	o__Bacteroidales
+0	4	0	f	Prevotellaceae	f__Prevotellaceae
+0	4	0	g	Prevotella	g__Prevotella
+0	2	0	s	Prevotella jejuni	s__Prevotella jejuni
+0	2	0	s	Prevotella melaninogenica	s__Prevotella melaninogenica
+1	0	0	o	Bacteroidetes Order II. Incertae sedis	o__Bacteroidetes Order II. Incertae sedis
+1	0	0	f	Rhodothermaceae	f__Rhodothermaceae
+1	0	0	g	Salinibacter	g__Salinibacter
+1	0	0	s	Salinibacter ruber	s__Salinibacter ruber
+1	0	0	p	Gemmatimonadetes	p__Gemmatimonadetes
+1	0	0	c	Gemmatimonadetes	c__Gemmatimonadetes
+1	0	0	o	Gemmatimonadales	o__Gemmatimonadales
+1	0	0	f	Gemmatimonadaceae	f__Gemmatimonadaceae
+1	0	0	g	Gemmatimonas	g__Gemmatimonas
+50	0	0	p	Synergistetes	p__Synergistetes
+50	0	0	c	Synergistia	c__Synergistia
+50	0	0	o	Synergistales	o__Synergistales
+50	0	0	f	Synergistaceae	f__Synergistaceae
+50	0	0	g	Aminomonas	g__Aminomonas
+50	0	0	s	Aminomonas paucivorans	s__Aminomonas paucivorans
+50	0	0	s1	Aminomonas paucivorans DSM 12260	s1__Aminomonas paucivorans DSM 12260
+0	6	0	p	Fusobacteria	p__Fusobacteria
+0	6	0	c	Fusobacteriia	c__Fusobacteriia
+0	6	0	o	Fusobacteriales	o__Fusobacteriales
+0	6	0	f	Fusobacteriaceae	f__Fusobacteriaceae
+0	6	0	g	Fusobacterium	g__Fusobacterium
+0	6	0	s	Fusobacterium nucleatum	s__Fusobacterium nucleatum
+2	3	1	p	Thermotogae	p__Thermotogae
+2	3	1	c	Thermotogae	c__Thermotogae
+2	3	1	o	Thermotogales	o__Thermotogales
+2	3	1	f	Fervidobacteriaceae	f__Fervidobacteriaceae
+2	3	1	g	Fervidobacterium	g__Fervidobacterium
+2	3	1	s	Fervidobacterium pennivorans	s__Fervidobacterium pennivorans
+2	3	0	s1	Fervidobacterium pennivorans DSM 9078	s1__Fervidobacterium pennivorans DSM 9078
+3	0	0	d1	PVC group	d1__PVC group
+2	0	0	p	Verrucomicrobia	p__Verrucomicrobia
+2	0	0	c	Opitutae	c__Opitutae
+2	0	0	o	Opitutales	o__Opitutales
+2	0	0	f	Opitutaceae	f__Opitutaceae
+1	0	0	p	Planctomycetes	p__Planctomycetes
+1	0	0	c	Planctomycetia	c__Planctomycetia
+3	0	0	p	Coprothermobacterota	p__Coprothermobacterota
+3	0	0	c	Coprothermobacteria	c__Coprothermobacteria
+3	0	0	o	Coprothermobacterales	o__Coprothermobacterales
+3	0	0	f	Coprothermobacteraceae	f__Coprothermobacteraceae
+3	0	0	g	Coprothermobacter	g__Coprothermobacter
+3	0	0	s	Coprothermobacter proteolyticus	s__Coprothermobacter proteolyticus
+3	0	0	s1	Coprothermobacter proteolyticus DSM 5265	s1__Coprothermobacter proteolyticus DSM 5265
+2	0	0	p	Nitrospirae	p__Nitrospirae
+2	0	0	c	Nitrospira	c__Nitrospira
+2	0	0	o	Nitrospirales	o__Nitrospirales
+2	0	0	f	Nitrospiraceae	f__Nitrospiraceae
+2	0	0	g	Nitrospira	g__Nitrospira
+2	0	0	s	Candidatus Nitrospira inopinata	s__Candidatus Nitrospira inopinata
+1	0	0	p	Acidobacteria	p__Acidobacteria
+1	0	0	c	Acidobacteriia	c__Acidobacteriia
+1	0	0	o	Acidobacteriales	o__Acidobacteriales
+1	0	0	f	Acidobacteriaceae	f__Acidobacteriaceae
+1	0	0	g	Terriglobus	g__Terriglobus
+1	0	0	s	Terriglobus roseus	s__Terriglobus roseus
+1	0	0	s1	Terriglobus roseus DSM 18391	s1__Terriglobus roseus DSM 18391
+1	0	0	d1	Bacteria incertae sedis	d1__Bacteria incertae sedis
+1	0	0	d2	Bacteria candidate phyla	d2__Bacteria candidate phyla
+1	0	0	p	Candidatus Saccharibacteria	p__Candidatus Saccharibacteria
