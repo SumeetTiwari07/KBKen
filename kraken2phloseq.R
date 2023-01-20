@@ -80,6 +80,8 @@ if (toupper(opt$rank) == "G") {
 taxa_abundance=otu_table(abundance, taxa_are_rows = TRUE)
 
 ## Sample Metadata
+sample_names_in_abundance = colnames(abundance)
+metadata = metadata %>% filter(row.names(metadata) %in% sample_names_in_abundance)
 meta=sample_data(metadata) # Metadata
 
 ## taxonomy
