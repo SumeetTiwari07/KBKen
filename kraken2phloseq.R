@@ -23,7 +23,7 @@ if (is.null(opt$input)) {
 } else if (file.access(opt$input) == -1) {
   stop(sprintf("Specified Combine Kraken report ( %s ) does not exist", opt$input))
 } else {
-  kreports=read.table(opt$input, sep="\t", header = TRUE, comment.char = "")  
+  kreports=read.table(opt$input, sep="\t", header = TRUE, comment.char = "", quote = "", check.names = FALSE)
 }
 
 # Sample metadata
@@ -32,7 +32,7 @@ if (is.null(opt$metadata)) {
 } else if (file.access(opt$metadata) == -1) {
   stop(sprintf("Specified metadata ( %s ) file does not exist", opt$metadata))
 } else {
-  metadata=read.csv(opt$metadata, header = TRUE, row.names = 1)
+  metadata=read.csv(opt$metadata, header = TRUE, row.names = 1, comment.char = "", quote = "", check.names = FALSE)
 }
 
 # Output file name
@@ -95,3 +95,4 @@ print(taxaObj)
 
 # Write phyloseq object
 saveRDS(taxaObj, file = file.path(paste0(basename(opt$output),c(".rds"))))
+data = readRDS("kraken2phloseq.R")
