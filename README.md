@@ -29,7 +29,13 @@ conda install -c bioconda bracken=2.8
 
 **R-packages**
 ```
-conda install -c bioconda -c conda-forge r-optparse=1.3.2 bioconductor-phyloseq=1.42.0 r-stringr=1.5.0 r-dplyr=1.0.10
+conda install -c bioconda -c conda-forge r-optparse=1.7.3 bioconductor-phyloseq=1.38.0 r-stringr=1.5.0 r-dplyr=1.0.10
+```
+
+**OR**
+Create the conda enviroment with all the above packages using `env.yaml`.
+```
+conda env create -f ./envs/env.yaml
 ```
 ## Singularity image:
 ```

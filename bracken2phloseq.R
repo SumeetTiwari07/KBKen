@@ -21,7 +21,7 @@ if (is.null(opt$input)) {
 } else if (file.access(opt$input) == -1) {
   stop(sprintf("Specified Combine bracken report ( %s ) does not exist", opt$input))
 } else {
-  bracken_estimates=read.table(opt$input, sep="\t", header = TRUE, row.names = 'name', comment.char = "") # Bracken report
+  bracken_estimates=read.table(opt$input, sep="\t", header = TRUE, row.names = 'name', comment.char = "", quote="", check.names = FALSE) # Bracken report
 }
 
 # Checking metadata file
@@ -30,7 +30,7 @@ if (is.null(opt$metadata)) {
 } else if (file.access(opt$metadata) == -1) {
   stop(sprintf("Specified metadata file ( %s ) does not exist", opt$metadata))
 } else {
-  metadata=read.csv(opt$metadata, header = TRUE, row.names = 1) # Sample metadata
+  metadata=read.csv(opt$metadata, header = TRUE, row.names = 1, comment.char = "", quote="", check.names = FALSE) # Sample metadata
 }
 
 # Check taxonomy file
@@ -39,7 +39,7 @@ if (is.null(opt$taxonomy)) {
 } else if (file.access(opt$input) == -1) {
   stop(sprintf("Specified taxonomy file ( %s ) does not exist", opt$taxonomy))
 } else {
-  taxonomy=read.table(opt$taxonomy, sep="\t", header = TRUE, comment.char = "") # Taxonomy file
+  taxonomy=read.table(opt$taxonomy, sep="\t", header = TRUE, comment.char = "", quote="", check.names = FALSE) # Taxonomy file
 }
 
 # Phyloseq objects
@@ -57,6 +57,8 @@ colnames(bracken_estimates)=s_names
 species_abundance=otu_table(bracken_estimates, taxa_are_rows = TRUE)
 
 ## Sample metadata
+sample_names_in_abundance = colnames(bracken_estimates)
+metadata = metadata %>% filter(row.names(metadata) %in% sample_names_in_abundance)
 meta=sample_data(metadata)
 
 ## Species taxonomy
