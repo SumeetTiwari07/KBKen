@@ -42,6 +42,8 @@ conda env create -f ./envs/env.yaml
 Bootstrap: docker
 From: centos:centos7.6.1810
 
+%files
+    ./env.yaml /etc/env.yaml
 %environment
     export PATH=$PATH:/opt/software/conda/bin
     source /opt/software/conda/bin/activate /opt/software/conenv
