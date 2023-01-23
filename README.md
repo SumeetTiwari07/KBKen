@@ -57,26 +57,23 @@ From: centos:centos7.6.1810
     #Downloading miniconda3
     wget -c https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
     
-    #Installing miniconda3
-    
+    # Install
     sh ./Miniconda3-latest-Linux-x86_64.sh -p /opt/software/conda -b
-    
     /opt/software/conda/bin/conda config --add channels defaults
     /opt/software/conda/bin/conda config --add channels bioconda
     /opt/software/conda/bin/conda config --add channels conda-forge
-
-    /opt/software/conda/bin/conda create -y -p /opt/software/conenv -c bioconda kraken2=2.1.2
-    
+    /opt/software/conda/bin/conda install -y -c conda-forge mamba
+    /opt/software/conda/bin/mamba env create -p /opt/software/conenv  --file /etc/env.yaml
     source /opt/software/conda/bin/activate /opt/software/conenv
     
     # Installing Bracken
-    wget https://github.com/jenniferlu717/Bracken/archive/refs/tags/v2.8.tar.gz
-    tar -xzvf v2.8.tar.gz
-    cd Bracken-2.8
-    bash install_bracken.sh
+    #wget https://github.com/jenniferlu717/Bracken/archive/refs/tags/v2.8.tar.gz
+    #tar -xzvf v2.8.tar.gz
+    #cd Bracken-2.8
+    #bash install_bracken.sh
 
-    ln -s /opt/software/Bracken-2.8/bracken /opt/software/conenv/bin/bracken
-    chmod ugo+x /opt/software/conenv/bin/bracken
+    #ln -s /opt/software/Bracken-2.8/bracken /opt/software/conenv/bin/bracken
+    #chmod ugo+x /opt/software/conenv/bin/bracken
     
     cd /opt/software
     
