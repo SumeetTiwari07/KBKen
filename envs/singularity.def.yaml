@@ -1,0 +1,43 @@
+Bootstrap: docker
+From: centos:centos7.6.1810
+
+%files
+    ./env.yaml /etc/env.yaml
+%environment
+    export PATH=$PATH:/opt/software/conda/bin
+    source /opt/software/conda/bin/activate /opt/software/conenv
+
+
+%post
+    yum -y install epel-release wget which nano curl zlib-devel git
+    yum -y groupinstall "Development Tools"
+
+    mkdir -p /opt/software
+    cd /opt/software
+
+    #Downloading miniconda3
+    wget -c https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+    
+    # Install
+    sh ./Miniconda3-latest-Linux-x86_64.sh -p /opt/software/conda -b
+    /opt/software/conda/bin/conda config --add channels defaults
+    /opt/software/conda/bin/conda config --add channels bioconda
+    /opt/software/conda/bin/conda config --add channels conda-forge
+    /opt/software/conda/bin/conda install -y -c conda-forge mamba
+    /opt/software/conda/bin/mamba env create -p /opt/software/conenv  --file /etc/env.yaml
+    source /opt/software/conda/bin/activate /opt/software/conenv
+    
+    # Installing Bracken
+    #wget https://github.com/jenniferlu717/Bracken/archive/refs/tags/v2.8.tar.gz
+    #tar -xzvf v2.8.tar.gz
+    #cd Bracken-2.8
+    #bash install_bracken.sh
+
+    #ln -s /opt/software/Bracken-2.8/bracken /opt/software/conenv/bin/bracken
+    #chmod ugo+x /opt/software/conenv/bin/bracken
+    
+    cd /opt/software
+    
+    /opt/software/conda/bin/conda clean -y --all
+%runscript
+    exec Kraken2 "$@"
