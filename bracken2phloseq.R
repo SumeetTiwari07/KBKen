@@ -84,3 +84,5 @@ print(speciesObj)
 
 # Write phyloseq object
 saveRDS(speciesObj, file = file.path(paste0(basename(opt$output),c(".rds"))))
+data = readRDS(file.path(paste0(basename(opt$output),c(".rds"))))
+print(data)

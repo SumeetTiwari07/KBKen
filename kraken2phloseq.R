@@ -95,4 +95,5 @@ print(taxaObj)
 
 # Write phyloseq object
 saveRDS(taxaObj, file = file.path(paste0(basename(opt$output),c(".rds"))))
-data = readRDS("kraken2phloseq.R")
+data = readRDS(file.path(paste0(basename(opt$output),c(".rds"))))
+print(data)
