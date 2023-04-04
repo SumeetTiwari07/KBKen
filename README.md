@@ -196,11 +196,11 @@ python3 extract_report.py -i ./combined-reports/kraken2/merged_kreports.txt -o .
 Rscript kraken2phloseq.R --help
 Usage: kraken2phloseq.R [options]
 Options:
-	-i INPUT, --input=INPUT, Combine Kraken report file
-	-m METADATA, --metadata=METADATA, Sample metadata *.csv file
+    -i INPUT, --input=INPUT, Combine Kraken report file
+    -m METADATA, --metadata=METADATA, Sample metadata *.csv file
     -r RANK, --rank=RANK, S: Species, G: Genus, [default=G]
-	-o OUTPUT, --output=OUTPUT, Output file name prefix
-	-h, --help, Show this help message and exit
+    -o OUTPUT, --output=OUTPUT, Output file name prefix
+    -h, --help, Show this help message and exit
 
 # Sample Run
 Rscript kraken2phloseq.R -i ./combined-reports/kraken2/filtered_kreports.txt -m metadata.csv -r G -o krakenGenus
@@ -218,11 +218,11 @@ Rscript kraken2phloseq.R -i ./combined-reports/kraken2/filtered_kreports.txt -m 
 Rscript bracken2phloseq.R --help
 Usage: bracken2phloseq.R [options]
 Options:
-	-i INPUT, --input=INPUT, Combine bracken report file
-	-m METADATA, --metadata=METADATA, Sample metadata *.csv file
+    -i INPUT, --input=INPUT, Combine bracken report file
+    -m METADATA, --metadata=METADATA, Sample metadata *.csv file
     -t TAXONOMY, --taxonomy=TAXONOMY, taxonomy file in tsv format
-	-o OUTPUT, --output=OUTPUT, Output file name prefix, default="brackenSpecies" 
-	-h, --help, Show this help message and exit
+    -o OUTPUT, --output=OUTPUT, Output file name prefix, default="brackenSpecies" 
+    -h, --help, Show this help message and exit
 
 Rscript bracken2phyloseq.R -i ./combined-reports/bracken/bracken_estimates.txt -m metadata.csv -t ./output/taxonomy.tsv -o brackenSpecies
 ```
