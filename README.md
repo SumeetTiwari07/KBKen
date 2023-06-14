@@ -118,7 +118,7 @@ bracken
 ```
 
 
-## Bactch script to run the Kraken and Bracken
+## Batch script to run the Kraken and Bracken
 ```
 # Classification.sh
 
