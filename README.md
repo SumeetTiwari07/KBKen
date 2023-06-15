@@ -1,5 +1,9 @@
 # Introduction 
+<<<<<<< HEAD
 KBKen is workflow to run [Kraken2](https://github.com/DerrickWood/kraken2) and [Bracken](https://github.com/jenniferlu717/Bracken) to estimate the taxnomic abubdance of species at `Genus` and `Species` level.
+=======
+KBKen is a worflow to run [Kraken2](https://github.com/DerrickWood/kraken2) and [Bracken](https://github.com/jenniferlu717/Bracken) to estimate the taxnomic abubdance of species at `Genus` and `Species` level.
+>>>>>>> 3dab93ff85cfc0f44754933229ea30834ba42f03
 
 Convert the output into phyloseq object
 
@@ -118,7 +122,7 @@ bracken
 ```
 
 
-## Bactch script to run the Kraken and Bracken
+## Batch script to run the Kraken and Bracken
 ```
 # Classification.sh
 
