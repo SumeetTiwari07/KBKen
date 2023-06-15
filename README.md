@@ -1,5 +1,5 @@
 # Introduction 
-KBKen is pipeline to run [Kraken2](https://github.com/DerrickWood/kraken2) and [Bracken](https://github.com/jenniferlu717/Bracken) to estimate the taxnomic abubdance of species at `Genus` and `Species` level.
+KBKen is workflow to run [Kraken2](https://github.com/DerrickWood/kraken2) and [Bracken](https://github.com/jenniferlu717/Bracken) to estimate the taxnomic abubdance of species at `Genus` and `Species` level.
 
 Convert the output into phyloseq object
 
