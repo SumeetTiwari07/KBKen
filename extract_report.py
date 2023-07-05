@@ -58,15 +58,15 @@ def kraken_report(summary_file,header_row):
     # Droping columns #perc #tot_all #tot_lvl #taxid
     kraken_summary.drop(columns=['#perc','tot_all','tot_lvl','taxid'],inplace=True)
 
-    # Droping reads specific to a clade.
-    kraken_summary=kraken_summary.filter(regex=f'_all$|name|lvl_type',axis=1)
+    # Keeping reads mapped to specific clade
+    kraken_summary=kraken_summary.filter(regex=f'_lvl$|name|lvl_type',axis=1)
  
     # Renaming columns with actual sample names
     kraken_summary.rename(columns=sample_names,inplace=True)
 
     kraken_summary['lvl_type']=kraken_summary['lvl_type'].str.casefold() # ranks in lower case
     kraken_summary['taxonomy'] = kraken_summary['lvl_type']+"__"+kraken_summary['name'] # combine ranks with names
-    kraken_summary.columns=kraken_summary.columns.str.replace('_all','', regex=True)
+    kraken_summary.columns=kraken_summary.columns.str.replace('_lvl','', regex=True)
 
     return kraken_summary
 
