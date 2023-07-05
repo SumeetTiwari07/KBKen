@@ -152,6 +152,6 @@ if __name__=="__main__":
         taxonomy_df.to_csv(args.output,index=False,sep="\t")
 
     # Write only taxonomy
-    onlytaxonomy = taxonomy_df.filter(regex=f'name|lvl_type|taxonomy',axis=1)
-    onlytaxonomy.to_csv("taxonomy.tsv",sep="\t",index=False)
+    #onlytaxonomy = taxonomy_df.filter(regex=f'name|lvl_type|taxonomy',axis=1)
+    #onlytaxonomy.to_csv("taxonomy.tsv",sep="\t",index=False)
 
